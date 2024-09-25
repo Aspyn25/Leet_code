@@ -15,3 +15,5 @@ class Solution(object):
 
 s = Solution()
 print(s.majorityElement([3,2,3]))
+
+# we can do better like nums.sort() and return nums[len(nums//2)]
